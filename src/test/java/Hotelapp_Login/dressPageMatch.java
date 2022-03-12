@@ -13,7 +13,7 @@ public class dressPageMatch {
 
 	dressPageResptiveMatch dressPgMatchObj;
 	HomePageObj homepgObj;
-int a = 10;
+int a = 12;
 	
 	
 	 public dressPageMatch() {
