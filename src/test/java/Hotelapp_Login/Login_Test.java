@@ -1,7 +1,8 @@
 package Hotelapp_Login;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import TestingFrame.LoginObject;
-import graphql.Assert;
+
 
 @Test
 public class Login_Test {

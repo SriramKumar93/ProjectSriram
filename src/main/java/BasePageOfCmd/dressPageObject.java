@@ -16,6 +16,14 @@ public class dressPageObject extends BasePage {
 		t_ShirtsTab.click();
 	}
 
+	@FindBy(xpath="//*[@id='center_column']/ul/li/div/div[2]/h5/a")
+	private WebElement txtProductName;
+	
+	public void clickProduct() {
+		txtProductName.click();
+	}
+	
+	
 	@FindBy(xpath="//*[@id='ul_layered_id_attribute_group_1']/li[1]/label")
 	WebElement sizeS;
 	@FindBy(xpath="//*[@id='ul_layered_id_attribute_group_1']/li[2]/label/a")

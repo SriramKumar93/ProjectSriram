@@ -1,23 +1,26 @@
 package Hotelapp_Login;
+
+
 import java.util.Random;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import BasePageOfCmd.HomePageObj;
 
-import graphql.Assert;
+
 
 public class HomePageTest {
 	
 	HomePageObj homepgObj;
 	
-	public HomePageTest(){
+	public HomePageTest(){	
 	homepgObj=new HomePageObj();
 	}
 	
 	@Test
 	public void getTabDispaly(){
-		Assert .assertTrue(homepgObj.womenTabdisplay().isDisplayed());
+		Assert.assertTrue(homepgObj.womenTabdisplay().isDisplayed());
 		Assert.assertTrue(homepgObj.DressTabDisplay().isDisplayed());
 		Assert.assertTrue(homepgObj.T_ShritDisplay().isDisplayed());
 	}

@@ -21,6 +21,13 @@ public class BasePage {
 				System.setProperty("webdriver.chrome.driver",
 						"C:\\Users\\srira\\Downloads\\chromedriver_win32\\chromedriver.exe");
 				driver = new ChromeDriver();
+				
+				/*DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+				capabilities.setCapability("chrome.switches", Arrays.asList("--incognito"));
+				WebDriver driver = new ChromeDriver(capabilities);*/
+				
+				
+				
 			} else if (browser.equals("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "C:\\SRIRAM\\FireBox Driver\\geckodriver.exe");
 				driver = new FirefoxDriver();

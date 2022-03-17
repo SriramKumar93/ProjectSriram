@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Hotelapp_Login.orderDressTest">
+        <methods>
+          <include name="gotoDressPage"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.orderDressTest -->
+      <class name="Hotelapp_Login.addToCartTest">
+        <methods>
+          <include name="AddtoCatd"/>
+          <include name="goToProductpage"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.addToCartTest -->
+      <class name="Hotelapp_Login.Login_Test">
+        <methods>
+          <include name="verifyInvalidLogin"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.Login_Test -->
+      <class name="Hotelapp_Login.dressPageTest">
+        <methods>
+          <include name="verifySizelist"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.dressPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

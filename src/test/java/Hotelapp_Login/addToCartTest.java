@@ -17,20 +17,23 @@ public class addToCartTest {
 	addTo=new addToCart();
 	hmg=new HomePageObj();
 }
-/*	@BeforeMethod
+   @BeforeMethod
 public void goToProductpage(){
 		hmg.clickDress();
-	}*/
+	}
 	
 	@Test
 	public void AddtoCatd(){
-		hmg.clickDress();
-		addTo.clickProdcut();
-		addTo.clickaddToCart();
-		System.out.println(addTo.productName());
-		System.out.println(addTo.CartAddedName());
 		
-		Assert.assertTrue(addTo.productName().equals(addTo.CartAddedName()), "Cart Added Product is wrong");
+		addTo.mouseMove();
+		String prodName=addTo.itemName();
+		addTo.clickaddToCart();
+		addTo.btnClickProcessToCartUsingJS();
+		String addedName=addTo.addedPartName();
+		System.out.println(prodName);
+		System.out.println(addedName);
+		
+		Assert.assertTrue(prodName.equals(addedName), "Cart Added Product is wrong");
 	}
 	
 	

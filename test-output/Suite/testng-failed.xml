@@ -3,11 +3,34 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Hotelapp_Login.TweetPageTest">
+        <methods>
+          <include name="btnVerifyTweet"/>
+          <include name="discribtionWordCount"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.TweetPageTest -->
+      <class name="Hotelapp_Login.dressPageTest">
+        <methods>
+          <include name="verifySizelist"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.dressPageTest -->
+      <class name="Hotelapp_Login.dressPageMatch">
+        <methods>
+          <include name="VerifyProductCountMatch"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.dressPageMatch -->
       <class name="Hotelapp_Login.HomePageTest">
         <methods>
           <include name="getSubcritionMsg"/>
+          <include name="TabVerification"/>
+          <include name="getTabDispaly"/>
         </methods>
       </class> <!-- Hotelapp_Login.HomePageTest -->
+      <class name="Hotelapp_Login.addToCartTest">
+        <methods>
+          <include name="AddtoCatd"/>
+        </methods>
+      </class> <!-- Hotelapp_Login.addToCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

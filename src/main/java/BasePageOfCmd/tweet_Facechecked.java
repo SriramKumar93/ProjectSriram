@@ -1,7 +1,6 @@
 package BasePageOfCmd;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.ClickAction;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 

@@ -1,11 +1,9 @@
 package BasePageOfCmd;
 
-import org.checkerframework.checker.units.qual.radians;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.v85.page.Page;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Factory;
+
 
 public class HomePageObj extends BasePage {
 	
@@ -16,9 +14,8 @@ public class HomePageObj extends BasePage {
 	private WebElement dressTab;
 
 	@FindBy(xpath = "//*[@id='block_top_menu']/ul/li[3]/a")
-	private WebElement t_ShirtsTab;
-
-		
+	private WebElement t_ShirtsTab;		
+	
 	public HomePageObj() {
 		PageFactory.initElements(driver, this);	
 	}

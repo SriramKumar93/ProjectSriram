@@ -3,11 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Hotelapp_Login.orderDressTest"/>
       <class name="Hotelapp_Login.HomePageTest"/>
-      <class name="Hotelapp_Login.dressPageTest"/>
-      <class name="Hotelapp_Login.dressPageMatch"/>
       <class name="Hotelapp_Login.TweetPageTest"/>
       <class name="Hotelapp_Login.addToCartTest"/>
+      <class name="Hotelapp_Login.dressPageMatch"/>
+      <class name="Hotelapp_Login.dressPageTest"/>
+      <class name="Hotelapp_Login.Login_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,13 +1,12 @@
 package Hotelapp_Login;
 
-import static org.testng.Assert.assertTrue;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import BasePageOfCmd.HomePageObj;
 import BasePageOfCmd.dressPageResptiveMatch;
-import graphql.Assert;
-import graphql.PublicApi;
+
 // Dress page testing-Match peoduct
 public class dressPageMatch {
 
